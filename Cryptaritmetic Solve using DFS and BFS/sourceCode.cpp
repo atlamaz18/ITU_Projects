@@ -20,7 +20,7 @@ public:
    ~Node();             //Destructor
 };
 
-Node::Node(char letter, int size){   //Matrix olmadan deniyorum vira Bismillah
+Node::Node(char letter, int size){
    this->letter = letter;
    child = new Node*[size];
    for(int i = 0; i < size; i++){
